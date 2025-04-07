@@ -1,18 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
-    <loc>https://www.rampvia.com/index.html</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.rampvia.com/</loc>
     <priority>1.0</priority>
   </url>
+
   <url>
-    <loc>https://www.rampvia.com/index-es.html</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.rampvia.com/about.html</loc>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://www.rampvia.com/index-ca.html</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.rampvia.com/services.html</loc>
     <priority>0.8</priority>
   </url>
+
+  <url>
+    <loc>https://www.rampvia.com/blog-index.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.rampvia.com/blog.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.rampvia.com/blog-2.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.rampvia.com/blog-3.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.rampvia.com/blog-4.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.rampvia.com/contact.html</loc>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
