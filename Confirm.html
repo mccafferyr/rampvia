@@ -5,13 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thank You | Rampvia</title>
   <script>
-    // Open the PDF in a new tab immediately
-    window.onload = function() {
+    function openChecklist() {
       window.open("https://www.rampvia.com/assets/GSE_Buyer_Checklist.pdf", "_blank");
       setTimeout(function() {
         window.location.href = "https://www.rampvia.com";
-      }, 3000); // Redirect after 3 seconds
-    };
+      }, 3000);
+    }
   </script>
   <style>
     body {
@@ -30,11 +29,25 @@
       color: #555;
       margin-top: 20px;
     }
+    button {
+      margin-top: 30px;
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #ef4a2b;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #d53d1f;
+    }
   </style>
 </head>
 <body>
   <h1>Thanks for Signing Up!</h1>
-  <p>Your GSE Buyer Checklist is being sent to your email and will also open in a new tab.</p>
-  <p>You'll be redirected to Rampvia.com shortly...</p>
+  <p>Your GSE Buyer Checklist is being sent to your email.</p>
+  <p>Click below to open it now. You'll be redirected to Rampvia.com automatically.</p>
+  <button onclick="openChecklist()">Open Checklist</button>
 </body>
 </html>
